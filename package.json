@@ -1,0 +1,30 @@
+{
+	"name": "node-android",
+	"version": "0.0.1",
+	"main": "app.js",
+	"scripts":{
+		"start" : "node app.js"
+	},
+
+	"engines": {
+		"node": "5.7.1",
+    	"npm": "3.6.0"
+	},
+
+	"dependencies": {
+		"express" : "~4.0.0", 
+		"mongoose" : "~3.8.1",	
+		"csprng" : "~0.1.1",
+		"connect": "~2.14.4",
+		"nodemailer":"~0.6.3",
+		"crypto":"~0.0.3",
+		"gravatar":"~1.0.6",
+        "jade": "0.34.x",
+        "nstore": "0.5.x",
+        "speakeasy": "1.0.x",
+        "request" : "2.36.0",
+        "body-parser": "~1.0.0",
+    	"cookie-parser": "~1.0.0",
+    	"morgan": "~1.0.0"
+  }
+}
